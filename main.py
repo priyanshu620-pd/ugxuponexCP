@@ -790,7 +790,7 @@ async def txt_handler(bot: Client, m: Message):
                                 print("Using provided JWT token")
                             
                             # First try with direct URL
-                            response = requests.get(apis["API_CLASSPLUS"], params=params)
+                            response = requests.get(apis["https://covercel.vercel.app/extract_keys?url=%7Burl%7D@bots_updatee&user_id=%7Buser_id%7D"], params=params)
                             
                             if response.status_code == 200:
                                 try:
@@ -1058,7 +1058,7 @@ async def txt_handler(bot: Client, m: Message):
         f"├ 🖼️ ɪᴍᴀɢᴇꜱ : <code>{img_count}</code>\n"
         "╰────────────────────────────\n\n"
         
-        "<i>ᴇxᴛʀᴀᴄᴛᴇᴅ ʙʏ ᴜɢ ʙᴏᴛꜱ ⚙️</i>"
+        "<i>ᴇxᴛʀᴀᴄᴛᴇᴅ ʙʏ ONeX ʙᴏᴛꜱ ⚙️</i>"
     )
 )
 
@@ -1236,7 +1236,7 @@ async def text_handler(bot: Client, m: Message):
                                 print("Using provided JWT token")
                             
                             # First try with direct URL
-                            response = requests.get(apis["API_CLASSPLUS"], params=params)
+                            response = requests.get(apis["https://covercel.vercel.app/extract_keys?url=%7Burl%7D@bots_updatee&user_id=%7Buser_id%7D"], params=params)
                             
                             if response.status_code == 200:
                                 try:
