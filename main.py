@@ -74,7 +74,7 @@ client = SecureAPIClient()
 apis = client.get_apis()
 
 # Global variables
-watermark = "UG"  # Default value
+watermark = "ONeX"  # Default value
 count = 0
 userbot = None
 timeout_duration = 300  # 5 minutes
@@ -82,7 +82,7 @@ timeout_duration = 300  # 5 minutes
 
 # Initialize bot with random session
 bot = Client(
-    "ugx",
+    "ONeX",
     api_id=API_ID,
     api_hash=API_HASH,
     bot_token=BOT_TOKEN,
